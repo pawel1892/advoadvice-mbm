@@ -1,30 +1,580 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>AdvoAdvice Rechtsanwälte mbB - Rechtsberatung online und deutschlandweit</title>
+    <description>Kompetente Rechtsberatung von erfahrenen Rechtsanwälten und Fachanwälten für Ihren Erfolg</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 16 May 2018 14:36:26 +0000</pubDate>
+    <lastBuildDate>Wed, 16 May 2018 14:36:26 +0000</lastBuildDate>
+    <generator>Jekyll v3.2.0</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Johann Mieth - BaFin ordnet Abwicklung des Einlagengeschäfts an</title>
+        <description>&lt;p&gt;Nach Angaben der Bundesanstalt für Finanzdienstleistungsaufsicht ( kurz BaFin) auf deren Webseite unter www.bafin.de hat diese Herrn Johann Mieth, Neubiberg, mit Bescheid vom 16. Februar 2018 aufgegeben, das Einlagengeschäft unverzüglich abzuwickeln.&lt;/p&gt;
+
+&lt;p&gt;Nach Angaben der BaFin nahm Mieth auf der Grundlage mündlicher Absprachen unbedingt rückzahlbare Gelder des Publikums an. Hierdurch betreibt er nach Ansicht der BaFin das Einlagengeschäft ohne die hierzu erforderliche Erlaubnis der Behörde nach dem Kreditwesengesetz (kurz KWG). Die BaFin verpflichtete Mieth daher nach eigenen Angaben durch Verfügung vom 16.02.2018, die Gelder per Überweisung auf Konten der Geldgeber unverzüglich und vollständig an seine Kunden bzw. Geldgeber zurückzuzahlen.&lt;/p&gt;
+
+&lt;p&gt;Die Verfügung der BaFin ist von Gesetzes wegen sofort vollziehbar, jedoch nach deren Angaben bisher noch nicht bestandskräftig geworden.&lt;/p&gt;
+
+&lt;p&gt;Anleger / Investoren, die Herrn Mieth Gelder zur Verfügung gestellt und diese nach dem 16.02.2018 nicht zurückerhalten haben, sollten sich an einen Experten im Bank- und Kapitalmarktrecht werden, um Schadensersatzansprüche und die Möglichkeit einer Zivilklage gegen Mieth prüfen zu lassen.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+        <link>/blog/johann-mieth-bafin-ordnet-abwicklung-des-einlagengesch%C3%A4fts-an/</link>
+        <guid isPermaLink="true">/blog/johann-mieth-bafin-ordnet-abwicklung-des-einlagengesch%C3%A4fts-an/</guid>
+        
+        <category>Verbraucherinformation</category>
+        
+        <category>Bafin</category>
+        
+        <category>Mieth</category>
+        
+        <category>Untersagung</category>
+        
+        <category>Abwicklung</category>
+        
+        <category>KWG</category>
+        
+        <category>Verfügung</category>
+        
+        <category>Einlagengeschäft</category>
+        
+        <category>erlaubnispflichtig</category>
+        
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>LeaseTrend AG zahlt mehreren Anlegern Abfindungsguthaben nach Klagen vor LG München I aus</title>
+        <description>&lt;p&gt;Die LeaseTrend AG hat erneut Anlegern, die Klagen über die Kanzlei AdvoAdvice Rechtsanwälte mbB vor dem LG München eingereicht haben, das aus Sicht der Anleger fällig Auseinandersetzungsguthaben zzgl. Zinsen ausgezahlt.&lt;/p&gt;
+
+&lt;h3 id=&quot;hintergrund-der-klagen&quot;&gt;Hintergrund der Klagen&lt;/h3&gt;
+
+&lt;p&gt;Hintergrund der Klagen einiger Anleger der LeaseTrend AG war die Tatsache, dass die Anleger ihre atypisch stillen Beteiligungen am der LeaseTrend AG gekündigt und von der Gesellschaft ein Auseinandersetzungsguthaben zum Laufzeitende bestätigt bekommen hatten. Dieses Guthaben hatte die LeaseTrend AG allerdings nicht zu dem im Gesellschaftsvertrag vorgesehenen Auszahlungstermin am Jahresende 2016 oder auch am Jahresende 2017 zur Auszahlung gebracht. Begründet wurde dies mit Liquiditätsengpässen und einer erst noch vorzunehmenden Veräußerung des Gesellschaftsvermögens.&lt;/p&gt;
+
+&lt;p&gt;Die Anleger, die diese Argumentation nicht hinnehmen und nicht auf eine Auszahlung in ungewissem Zeitrahmen warten wollten, reichten daher über die Kanzlei AdvoAdvice Rechtsanwälte mbB Klagen zum LG München I auf Zahlung des Auseinandersetzungsbetrages zzgl. Zinsen ein. (&lt;a href=&quot;/blog/klagen-auf-zahlung-gegen-leasetrend-ag-eingereicht/&quot;&gt;–&amp;gt; zum Bericht&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h3 id=&quot;die-einzelfälle&quot;&gt;Die Einzelfälle&lt;/h3&gt;
+
+&lt;p&gt;Am 14.02.2018 wurde über Ansprüche betroffener Anleger gegen die Leasetrend AG in Höhe von 5.161,82 Euro (Klage vom 14.02.2018), 6.649,79 Euro (Klage vom 14.02.2018), 6.323,82 Euro (Klage vom 09.02.2018) sowie 5.950,53 Euro (Klage vom 01.02.2018) berichtet.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/lg-münchen-i.jpg&quot; alt=&quot;Landgericht München I - Foto Pixabay&quot; title=&quot;Landgericht München I&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Diese Fälle konnten in der Zwischenzeit durch Zahlung der LeaseTrend AG an die Anleger abgeschlossen werden, wie auch noch weitere Anlegerklagen gegen die Leasetrend AG in Höhe von 8.502,12 Euro (Klage vom 20.11.2017) und 6.208,75 Euro (Klage vom 28.02.2018).&lt;/p&gt;
+
+&lt;p&gt;Ein weiteres Klageverfahren in Höhe von 6.272,08 Euro (Klage vom 20.04.2018) ist noch beim LG München I anhängig.&lt;/p&gt;
+
+&lt;h3 id=&quot;tipp-für-anleger-der-leasetrend-ag&quot;&gt;Tipp für Anleger der Leasetrend AG&lt;/h3&gt;
+
+&lt;p&gt;Anleger, die in Sachen Leasetrend AG immer noch auf ihr Auseinandersetzungsguthaben, welches am 31.12.2016 oder am 31.12.2017 fällig gewesen wäre, warten, sollten sich daher an einen Spezialisten im Bank- und Kapitalmarktrecht wenden, um die Ansprüche außergerichtlich oder auch gleich gerichtlich geltend zu machen.&lt;/p&gt;
+
+&lt;p&gt;Die Kanzlei AdvoAdvice hat hier bereits mehreren Anlegern durch Verfahren vor dem LG München I zu einer Auszahlung der Auseinandersetzungssumme verhelfen können. Kosten für eine Klage übernimmt teilweise die Rechtsschutzversicherung. Sollten diese durch den Anleger vorfinanziert werden müssen, erfolgt bei erfolgreicher Prozessführung gegen die Leasetrend AG von dieser eine Kostenerstattung.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
+        <link>/blog/leasetrend-ag-zahlt-mehreren-anlegern-abfindungsguthaben-nach-klagen-vor-lg-m%C3%BCnchen-i-aus/</link>
+        <guid isPermaLink="true">/blog/leasetrend-ag-zahlt-mehreren-anlegern-abfindungsguthaben-nach-klagen-vor-lg-m%C3%BCnchen-i-aus/</guid>
+        
+        <category>Anlegerschutz</category>
+        
+        <category>Kapitalmarktrecht</category>
+        
+        <category>Ansprüche</category>
+        
+        <category>Betroffener</category>
+        
+        <category>Anleger</category>
+        
+        <category>Leasetrend AG</category>
+        
+        <category>Auszahlung</category>
+        
+        <category>Auseinandersetzungsguthaben</category>
+        
+        <category>Klage</category>
+        
+        <category>Landgericht München I</category>
+        
+        <category>Zahlung</category>
+        
+        <category>Kosten</category>
+        
+        <category>Kostenübernahme</category>
+        
+        <category>Erfolg</category>
+        
+        <category>Zinsen</category>
+        
+        <category>Fälligkeit</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>BBI Beteiligungsgesellschaft Bayrische Immobilien mbH &amp; Co. KG - BaFin ordnet Abwicklung des Investmentgeschäfts an</title>
+        <description>&lt;p&gt;Die Bundesanstalt für Finanzdienstleistungsaufsicht (kurz BaFin) hat auf ihrer Webseite unter www.bafin.de/dok/10882714 mitgeteilt, dass sie der Firma BBI Beteiligungsgesellschaft Bayrische Immobilien mbH &amp;amp; Co. KG mit Bescheid vom 30.04.2018 die Einstellung und Abwicklung des Investmentgeschäfts aufgegeben hat.&lt;/p&gt;
+
+&lt;h3 id=&quot;investmentgeschäft-ohne-erlaubnis-betrieben&quot;&gt;Investmentgeschäft ohne Erlaubnis betrieben&lt;/h3&gt;
+
+&lt;p&gt;Nach Ansicht das BaFin sammelte die BBI Beteiligungsgesellschaft Kommanditkapital von Anlegern ein. Sie versprach, das Kapital gemäß einer festgelegten Anlagestrategie zum Nutzen der Anleger zu investieren.&lt;/p&gt;
+
+&lt;p&gt;Damit hat die BBI Beteiligungsgesellschaft nach Ansicht der BaFin das Investmentgeschäft betrieben, ohne über die hierzu erforderliche Erlaubnis nach dem Kapitalanlagegesetzbuch (KAGB) zu verfügen. Aus diesem Grund wurde der Gesellschaft aufgegeben, dass Investmentgeschäft einzustellen und dieses durch die vollständige Auszahlung des den Anlegern zustehenden Buchwertes des angenommenen Kommanditkapitals unverzüglich abzuwickeln.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/advoadvice-02-42-von-49.jpg&quot; alt=&quot;AdvoAdvice Rechtsanwälte&quot; title=&quot;AdvoAdvice Rechtsanwälte&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nach Angaben der BaFin ist der Bescheid vom 30.04.2018 von Gesetzes wegen sofort vollziehbar, aber noch nicht bestandskräftig.&lt;/p&gt;
+
+&lt;h3 id=&quot;schadensersatzansprüche-jetzt-prüfen-lassen&quot;&gt;Schadensersatzansprüche jetzt prüfen lassen&lt;/h3&gt;
+
+&lt;p&gt;Anleger, die Geld zum Erwerb eines Kommanditanteils bei der BBI Beteiligungsgesellschaft Bayrische Immobilien mbH &amp;amp; Co. KG angelegt haben, sollten sich daher unverzüglich Rat von einem Rechtsanwalt mit Erfahrung im Bank- und Kapitalmarktrecht einholen, um Ansprüche gegen die Gesellschaft selbst, deren Komplementärin, Kommanditistin, den Geschäftsführer und auch ggf. den Berater, der die Anlage empfohlen und vertrieben hat, ob die Vorgaben des KAGB einzuhalten, prüfen zu lassen.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>
+        <link>/blog/bbi-beteiligungsgesellschaft-bayrische-immobilien-mbh-co-kg-bafin-ordnet-abwicklung-des-investmentgesch%C3%A4fts-an/</link>
+        <guid isPermaLink="true">/blog/bbi-beteiligungsgesellschaft-bayrische-immobilien-mbh-co-kg-bafin-ordnet-abwicklung-des-investmentgesch%C3%A4fts-an/</guid>
+        
+        <category>Verbraucherinformation</category>
+        
+        <category>BaFin</category>
+        
+        <category>Untersagung</category>
+        
+        <category>Einstellung</category>
+        
+        <category>Abwicklung</category>
+        
+        <category>Investmentgeschäft</category>
+        
+        <category>BBI Beteiligungsgesellschaft</category>
+        
+        <category>Ansprüche</category>
+        
+        <category>Anleger</category>
+        
+        <category>Rückabwicklung</category>
+        
+        <category>Schaden</category>
+        
+        <category>Schadensersatz</category>
+        
+        <category>KAGB</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Schufa Eintrag der Barclays Bank - Reaktion in Rekordzeit</title>
+        <description>&lt;p&gt;Im vergangenen Monat konnte einmal mehr ein Schufa-Eintrag der Barclays Bank erfolgreich gelöscht werden. Das besondere an diesem Fall: Die Löschung erfolgte in Rekordzeit.&lt;/p&gt;
+
+&lt;h3 id=&quot;sachverhalt&quot;&gt;Sachverhalt:&lt;/h3&gt;
+
+&lt;p&gt;Die Barclays Bank PLC mit Sitz in Hamburg, hat zu Beginn des Jahres 2018 einen negativen Schufa-Eintrag zu Lasten eines ebenfalls in Hamburg wohnenden Mannes eingetragen. Dabei wurde eine Forderung von fast 10.000,00 Euro aus einem Kreditkartenvertrag geltend gemacht.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;blob:https://app.cloudcannon.com/95efd6e1-6058-4640-b21f-923bf562f6ee&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Zum Datum des Schufa Eintrages wurde der Betroffene durch die Barclays Bank kontaktiert. Dabei wurden zwei Schreiben versendet: Die Ankündigung eines Lastschrifteinzuges und ein Kündigungsschreiben. Was der Betroffene zuvor nicht erhielt, war ein Mahnschreiben.&lt;/p&gt;
+
+&lt;p&gt;Problematisch für den Betroffenen war, dass nachweislich alle vorherigen Abbuchungen und Zahlungsaufforderungen rechtzeitig bedient wurden.&lt;/p&gt;
+
+&lt;h3 id=&quot;wie-kam-es-zu-der-schnellen-löschung&quot;&gt;Wie kam es zu der schnellen Löschung?&lt;/h3&gt;
+
+&lt;p&gt;Die Prüfung des Sachverhaltes ergab recht schnell, dass die gesetzlichen Kündigungsvoraussetzungen nicht vorlagen. Eine Schufa-Eintragung wäre aber nur dann rechtmäßig gewesen.&lt;/p&gt;
+
+&lt;p&gt;Dieses Prüfungsergebnis wurde der Barclays Bank PLC mitgeteilt. Dazugehöriges Schreiben wurde an einem Mittwoch Vormittag gegen 10:00 Uhr per Fax an die Barclays Bank PLC übermittelt. Noch am gleichen Tag erhielt der Mandant eine Mitteilung, dass die Kündigung zurückgenommen und der Schufa Eintrag widerrufen wird.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/data-858360-640-4.jpg&quot; alt=&quot;Datenübersicht Schufa - Foto Pixabay&quot; title=&quot;Datenübersicht nach § 34 BDSG bestellen&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Der zuständige Schufa-Experte Dr. Sven Tintemann erläuterte dazu: “Eine derart schnelle Reaktion ist sehr ungewöhnlich. Die normale Bearbeitungszeit eines Schreibens dauert normalerweise mehr als eine Woche. Allerdings ist die Kündigung offensichtlich zu Unrecht erfolgt, weshalb eine schnelle Reaktion auch angebracht war. Man darf nun aber nicht erwarten, dass die Löschung eines Schufa Eintrages immer so schnell geht.”&lt;/p&gt;
+
+&lt;h3 id=&quot;fazit&quot;&gt;Fazit&lt;/h3&gt;
+
+&lt;p&gt;Manchmal können unrechtmäßige Zustände erfreulich schnell wieder beseitigt werden. Auch wenn man aus der zetilichen Komponente keine größeren Schlussfolgerung ziehen kann, rentiert es sich dennoch, einen negativen Schufa Eintrag umgehend zu bearbeiten. Falls Sie Hilfe bei der Bekämpfung eines negativen Schufa Eintrages benötigen, können Sie uns gerne unseren &lt;a href=&quot;http://advoadvice.de/schufa-beratung&quot;&gt;Schufa-Vorab-Check &lt;/a&gt;nutzen.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+        <link>/blog/schufa-eintrag-der-barclays-bank-reaktion-in-rekordzeit/</link>
+        <guid isPermaLink="true">/blog/schufa-eintrag-der-barclays-bank-reaktion-in-rekordzeit/</guid>
+        
+        <category>Schufa-Eintrag</category>
+        
+        <category>Schufa Recht</category>
+        
+        <category>Schufa Holding AG</category>
+        
+        <category>Negativeintrag</category>
+        
+        <category>Löschung</category>
+        
+        <category>Widerruf</category>
+        
+        <category>BDSG</category>
+        
+        <category>Barclays Bank PLC</category>
+        
+        <category>Kündigung</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Lionstrading Ltd. - BaFin ordnet Abwicklung des Einlagengeschäfts an</title>
+        <description>&lt;p&gt;Die Bundesanstalt für Finanzdienstleistungsaufsicht (kurz BaFin) hat der Firma Lionstradingclub Ltd. nach Angaben auf ihrer Homepage unter www.bafin.de/dok/10664488 am 13.03.2018 aufgegeben, das Einlagengeschäft einzustellen und abzuwickeln.&lt;/p&gt;
+
+&lt;p&gt;Nach Angaben auf ihrer Internetseite wies die BaFin die Loinstradingclub Ltd. an, den Anlegern sämtliche angenommenen Gelder unverzüglich zurückzuzahlen.&lt;/p&gt;
+
+&lt;p&gt;Zur Begründung führte die BaFin an, die Lionstradingclub Ltd. nehme Gelder entgegen und verspreche deren unbedingte Rückzahlung. Hierzu sei nach § 32 KWG eine schriftliche Erlaubnis der BaFin notwendig, welche die Lionstradingclub Ltd. nicht besitze.&lt;/p&gt;
+
+&lt;p&gt;Der Bescheid ist nach Angaben der BaFin sofort vollziehbar, aber noch nicht bestandskräftig.&lt;/p&gt;
+
+&lt;p&gt;Anleger, die der Lionstradingclub Ltd. Gelder zur Verfügung gestellt haben, sollen daher von einem erfahrenen Experten auf dem Gebiet des Bank- und Kapitalmarktrechts Ansprüche auf Rückzahlung gegen die Gesellschaft, deren Geschäftsführer und auch evtl. mit dem Vertrieb beauftragte Berater juristisch überprüfen lassen.&lt;/p&gt;
+
+&lt;p&gt;Die Kanzlei AdvoAdvice vertritt zahlreiche Anleger, die Gelder in ähnlichen Fallkonstellationen angelegt haben, in denen die Geschäftsmodelle der Anlagefirmen ebenfalls durch die BaFin untersagt worden sind.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
+        <link>/blog/lionstrading-ltd-bafin-ordnet-abwicklung-des-einlagengesch%C3%A4fts-an/</link>
+        <guid isPermaLink="true">/blog/lionstrading-ltd-bafin-ordnet-abwicklung-des-einlagengesch%C3%A4fts-an/</guid>
+        
+        <category>Verbraucherinformation</category>
+        
+        <category>BaFin</category>
+        
+        <category>Abwicklung</category>
+        
+        <category>Einstellung</category>
+        
+        <category>Einlagengeschäft</category>
+        
+        <category>Lionstradingclub</category>
+        
+        <category>Limited</category>
+        
+        <category>§ 32 KWG</category>
+        
+        <category>Schadensersatz</category>
+        
+        <category>Rückzahlung</category>
+        
+        <category>Bankerlaubnis</category>
+        
+        <category>Haftung</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>LG Berlin: Nachrangabrede der DEF Deutsche Energie Finanz 11 GmbH &amp; Co. KG unwirksam</title>
+        <description>&lt;p&gt;Das Landgericht Berlin hat die DEF Deutsche Energie Finanz 11 GmbH &amp;amp; Co. KG zur Zahlung von 24.190,50 Euro verurteilt. Das erstinstanzliche Urteil wurde am 25.04.018 verkündet.&lt;/p&gt;
+
+&lt;h3 id=&quot;zum-hintergrund&quot;&gt;Zum Hintergrund&lt;/h3&gt;
+
+&lt;p&gt;Bei der Kanzlei AdvoAdvice Rechtsanwälte mbB meldet sich eine Anlegerin, die der Firma DEF Deutsche Energie Finanz 11 GmbH &amp;amp; Co. KG Geld im Rahmen eines Darlehens zur Verfügung gestellt hatte. Die Gesellschaft hatte mitgeteilt, dass finanzielle Schwierigkeiten bestehen würden und zudem die Anleger zu Informationsveranstaltungen nach Berlin und Hannover eingeladen. Hierüber hatte AdvoAdvice bereits berichtet. (&lt;a href=&quot;/blog/def-deutsche-energie-finanz-11-gmbh-co-kg-l%C3%A4dt-zu-au%C3%9Ferordentlichen-versammlungen-in-hannover-und-berlin/&quot;&gt;–&amp;gt; zum Blog-Beitrag&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Die Anlegerin hatte deswegen ihren Darlehensvertrag gekündigt und die Rückzahlung des Darlehens von der DEF 11 gefordert und zudem ein Inkasso-Unternehmen eingeschaltet.&lt;/p&gt;
+
+&lt;p&gt;Da eine Zahlung nicht erfolgte, wurde durch AdvoAdvice Klage zum Landgericht Berlin eingereicht. (&lt;a href=&quot;/blog/klage-gegen-def-11-kg-eingereicht/&quot;&gt;–&amp;gt; zum Blog-Beitrag&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2 id=&quot;begründung-der-entscheidung&quot;&gt;Begründung der Entscheidung&lt;/h2&gt;
+
+&lt;p&gt;Das Gericht sprach die Klageforderung in der Hauptsache zu und begründete seine Entscheidung damit, dass die von der DEF 11 verwendete Nachrangabrede eine Allgemeine Geschäftsbedingung darstellen würde. Diese wäre nach §§ 305 c, 306, 307 BGB unwirksam, da sie überraschend sei und den Vertragspartner des Verwenders unangemessen benachteiligen würde.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/lg-berlin---eingang-tegeler-weg-1.jpg&quot; alt=&quot;LG Berlin Eingang&quot; title=&quot;Eingang Landgericht Berlin&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Die Kündigung der Klägerin sah das Gericht für wirksam an, da die DEF 11 die Anleger unstreitig um Frühjahr 2017 selbst darüber informiert habe, dass sie sich unverschuldet in wirtschaftlichen Schwierigkeiten befinde. Das Kündigungsrecht der Klägerin ergebe sich daher aus § 490 Abs. 1 BGB wegen wesentlicher Verschlechterung der Vermögensverhältnisse.&lt;/p&gt;
+
+&lt;p&gt;Die Entscheidung ist noch nicht rechtskräftig, da die Beklagte noch das Rechtsmittel der Berufung einlegen kann.&lt;/p&gt;
+
+&lt;h3 id=&quot;gesellschaft-nach-eigenen-angaben-auf-wackeligen-beinen&quot;&gt;Gesellschaft nach eigenen Angaben auf wackeligen Beinen&lt;/h3&gt;
+
+&lt;p&gt;Die Gesellschaft selbst steht nach eigenen Angaben auf wackeligen Beinen und will eine Immobilie, die sie im Bestand hat, sanieren.&lt;/p&gt;
+
+&lt;p&gt;Während der Auseinandersetzung drohte die DEF Deutsche Energie Finanz 11 GmbH &amp;amp; Co. KG mit ihrer Insolvenz für den Fall, dass ein Anleger klagt und mit einer Klage erfolgreich sein sollte. (&lt;a href=&quot;/blog/def-11-kg-droht-mit-insolvenz-bei-klage-durch-anleger/&quot;&gt;–&amp;gt; zum Blog-Beitrag&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Es bleibt daher abzuwarten, wie die Verantwortlichen bei der DEF 11 nun handeln werden.&lt;/p&gt;
+
+&lt;h3 id=&quot;unser-kommentar&quot;&gt;Unser Kommentar&lt;/h3&gt;
+
+&lt;p&gt;Dr. Sven Tintemann, Rechtsanwalt und Fachanwalt für Bank- und Kapitalmarktrecht, der die Entscheidung für AdvoAdvice vor dem LG Berlin erstritten hat, kommiert diese wie folgt: “Die Entscheidung des Landgerichts Berlin ist gut begründet und wird daher aus unserer Sicht auch in einer möglichen Berufungsinstanz bestand haben. Abzuwarten bleibt, wie die Gesellschaft hier nun reagieren wird, da die Entscheidung auch weiteren Anlegern der DEF 11 die Möglichkeit eröffnet, ihre noch bestehenden Darlehensverträge zu kündigen und die Rückzahlung der Darlehensvaluta geltend zu machen.”&lt;/p&gt;
+
+&lt;p&gt;Anleger der DEF Deutsche Energie Finanz 11 GmbH &amp;amp; Co. KG sollten nun möglichst schnell anwaltliche Beratung in Anspruch nehmen, um ihre Ansprüche und rechtlichen Möglichkeiten durch einen Experten im Bank- und Kapitalmarktrecht prüfen zu lassen.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
+        <link>/blog/lg-berlin-nachrangabrede-der-def-deutsche-energie-finanz-11-gmbh-co-kg-unwirksam/</link>
+        <guid isPermaLink="true">/blog/lg-berlin-nachrangabrede-der-def-deutsche-energie-finanz-11-gmbh-co-kg-unwirksam/</guid>
+        
+        <category>Anlegerschutz</category>
+        
+        <category>Kapitalmarktrecht</category>
+        
+        <category>Ansprüche</category>
+        
+        <category>Betroffener</category>
+        
+        <category>Anleger</category>
+        
+        <category>DEF 11</category>
+        
+        <category>DEF Deutsche Energie Finanz 11 GmbH &amp; Co. KG</category>
+        
+        <category>Nachrangabrede unwirksam</category>
+        
+        <category>AGB</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Schufa Eintrag der Barclays Bank PLC gelöscht</title>
+        <description>&lt;p&gt;Erfolg von AdvoAdvice innerhalb von nur fünf Tagen. Eintrag der Barclays Bank PLC bei der Schufa Holding AG gelöscht.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/advoadvice-02-13-von-49.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;schufa-löscht-nach-fünf-tagen&quot;&gt;Schufa löscht nach fünf Tagen&lt;/h3&gt;
+
+&lt;p&gt;AdvoAdvice konnte einer zweiundfünfzigjährigen Frau aus dem Ruhrgebiet gegen einen Negativeintrag der Barclays Bank PLC bei der Schufa Holding AG in nur fünf Tagen helfen. &lt;/p&gt;
+
+&lt;h3 id=&quot;hintergrund-des-eintrags&quot;&gt;Hintergrund des Eintrags&lt;/h3&gt;
+
+&lt;p&gt;Die Frau aus dem Ruhrgebiet hatte seitens der Barclays Bank eine Mahnung über einen Betrag von 462,88 Euro erhalten. Darin wurde zu einer Zahlung binnen 14 Tagen aufgefordert.&lt;/p&gt;
+
+&lt;p&gt;Die Bankkundin zahlte dann auch nachweislich am 22.08.2016 und somit innerhalb von 14 Tagen nach Erhalt der Mahnung.&lt;/p&gt;
+
+&lt;p&gt;Dennoch sprach die Barclays Bank am 24.08.2016 eine fristlose Kündigung des Kreditkartenkontos aus und meldete eine Forderung in Höhe von 7.889,00 Euro bei der Schufa Holding AG ein.&lt;/p&gt;
+
+&lt;h3 id=&quot;schreiben-an-schufa-wirkt-sehr-schnell&quot;&gt;Schreiben an Schufa wirkt sehr schnell&lt;/h3&gt;
+
+&lt;p&gt;Mit einem Schreiben vom 15.03.2018 wandte ich AdvoAdvice dann an die Schufa Holding AG sowie an die Barclays Bank und rügte den Negativeintrag als rechtswidrig und forderte zur Löschung auf.&lt;/p&gt;
+
+&lt;p&gt;Bereits mit Schreiben vom 20.03.2018 meldete sich die Schufa Holding AG und  teilte mit, den Negativeintrag ohne Anerkennung einer Rechtspflicht gelöscht zu haben.&lt;/p&gt;
+
+&lt;h3 id=&quot;barclays-bank-plc-übernimmt-anwaltskosten&quot;&gt;Barclays Bank PLC übernimmt Anwaltskosten&lt;/h3&gt;
+
+&lt;p&gt;Mit Schreiben vom 16.04.2018 bestätigte auch die Barclays Bank die Löschung des Eintrags sowie eine Übernahme der entstandenen Anwaltskosten auf einen Streitwert von 7.889,00 Euro.&lt;/p&gt;
+
+&lt;p&gt;Der Vorgang zeigt wieder einmal, dass es sehr sinnvoll sein kann, sich bei einem Schufa Negativeintrag schnell an einen Rechtsanwalt und Spezialisten im Bank- und Kapitalmarktrecht zu wenden. Dieser kann oftmals schnell erkennen, ob ein Eintrag rechtswidrig ist und durch konsequentens Handeln sowohl die Schufa Holding AG als auch die eintragende Stelle hierauf ausmerksam machen.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
+        <link>/blog/schufa-eintrag-der-barclays-bank-plc-gel%C3%B6scht/</link>
+        <guid isPermaLink="true">/blog/schufa-eintrag-der-barclays-bank-plc-gel%C3%B6scht/</guid>
+        
+        <category>Schufa Eintrag</category>
+        
+        <category>Schufa Recht</category>
+        
+        <category>Schufa Holding AG</category>
+        
+        <category>Negativeintrag</category>
+        
+        <category>Löschung</category>
+        
+        <category>Widerruf</category>
+        
+        <category>BDSG</category>
+        
+        <category>Barclays Bank</category>
+        
+        <category>Zahlung</category>
+        
+        <category>schneller Erfolg</category>
+        
+        <category>konsequentes Handeln</category>
+        
+        <category>Kündigung</category>
+        
+        <category>Kreditkartenvertrag</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Klage gegen MoreMedia GmbH eingereicht</title>
+        <description>&lt;p&gt;Die Kanzlei AdvoAdvice Rechtsanwälte mbB aus Berlin hat am 19.04.2018 eine Klage gegen die in Berlin ebenfalls geschäftsansässige Firma MoreMedia GmbH beim Landgericht Berlin eingereicht. Die MoreMedia GmbH mit Sitz in der Scharnhorststraße 24 ging aus der Firma Oberle Geothermik GmbH hervor, welche von Anlegern Investsments als qualifiziert nachrangige Darlehensverträge entgegen nahm.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/lg-berlin---kampf.jpg&quot; alt=&quot;Relief im LG Berlin&quot; title=&quot;Kampf - Säule im LG Berlin&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;zum-hintergrund-des-verfahrens&quot;&gt;Zum Hintergrund des Verfahrens&lt;/h3&gt;
+
+&lt;p&gt;Der durch AdvoAdvice vertretene Anleger macht mit seiner Klage zunächst lediglich Ansprüche aus bisher nicht ausgezahlte Zinsen aus einem Darlehen über 50.000 Euro in Höhe von 9.402,08 Euro geltend, welche in den letzten Jahren von der Gesellschaft nicht entrichtet worden waren.&lt;/p&gt;
+
+&lt;p&gt;Trotz Zahlungsaufforderung erfolgte hier keine Zahlung, weshalb eine Klage geboten war.&lt;/p&gt;
+
+&lt;h3 id=&quot;interessante-hintergrundinformationen&quot;&gt;Interessante Hintergrundinformationen&lt;/h3&gt;
+
+&lt;p&gt;In einem Schreiben der MoreMedia GmbH vom 08.03.2018, gerichtet an AdvoAdvice, teilt die Gesellschaft mit, man müsse, bevor Zinsausschüttungen erfolgen, erst einmal die betriebswirtschaftlichen Verhältnisse ordnen. Eine Wiederaufnahme von Ausschüttungen wird noch im laufenden Geschäftsjahr 2018 angekündigt.&lt;/p&gt;
+
+&lt;p&gt;Nach Angaben der MoreMedia GmbH sei der Hintergrund der angeblich positven Prognose der Abstand zum früheren Gesellschafter sowie eine andere Akzentuierung der Geschäftstätigkeit. So sei glücklicherweise eines an Rechen im Mediengeschäft angehäuft worden, was derzeit die Einnahmen kontinuierlich anwachsen lasse. Zudem werde die Auflösung aller Geothermiebeteiligungen/-rechte derzeit geprüft.&lt;/p&gt;
+
+&lt;h3 id=&quot;unser-rat-an-alle-anleger--darlehensgeber&quot;&gt;Unser Rat an alle Anleger / Darlehensgeber&lt;/h3&gt;
+
+&lt;p&gt;Die Aussetzung von Zinszahlungen und die Umfirmierung der Gesellschaft stellen aus sich von Rechtsanwalt Dr. Sven Tintemann keine guten Signale für die Anleger / Darlehensgeber der Gesellschaft dar. “Wer über einen längeren Zeitraum hinweg seine Zinsen nicht bezahlen kann, muss sich zumindest fragen lassen, was an dem Geschäftsmodell nicht läuft. Offensichtlich scheint der Geschäftszweig Geothermie nicht wirklich gewinnbringend zu sein, wieso sonst sollte man ihn abstoßen? Warum hier mit einer Beteiligung in Medienprojekte Geld verdient werden kann und ob dies überhaupt vom Geschäftszweck der Darlehensnehmerin Oberle Geothermik GmbH gedeckt war, darf mit Recht bezweifelt werden. Anleger sollten daher prüfen, ob sie aus dem Vertrag durch Kündigung oder Widerruf aussteigen können. Auch über eine Falschberatung sollte ggf. nachgedacht werden.”&lt;/p&gt;
+
+&lt;p&gt;Die Kanzlei AdvoAdvice aus Berlin ist seit Jahren im Verbraucherschutz und im Bank- und Kapitalmarktrecht tätig und berät Anleger, die Gelder in Form von nachrangigen Darlehensverträgen an Gesellschaften zur Verfügung gestellt haben.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
+        <link>/blog/klage-gegen-moremedia-gmbh-eingereicht/</link>
+        <guid isPermaLink="true">/blog/klage-gegen-moremedia-gmbh-eingereicht/</guid>
+        
+        <category>Anlegerschutz</category>
+        
+        <category>Kapitalmarktrecht</category>
+        
+        <category>Ansprüche</category>
+        
+        <category>Betroffener</category>
+        
+        <category>Anleger</category>
+        
+        <category>Oberle Geotermik GmbH</category>
+        
+        <category>MoreMedia GmbH</category>
+        
+        <category>Klage</category>
+        
+        <category>Zinszahlungen</category>
+        
+        <category>Darlehen</category>
+        
+        <category>Landgericht Berlin</category>
+        
+        <category>Geothermie</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>SAM AG: OLG Karlsruhe bestätigt Verurteilung von SAM AG Verwaltungsrat</title>
+        <description>&lt;p&gt;Das OLG Karlsruhe hat in zweiter Instanz eine Verurteilung des Verwaltungsratsvorsitzenden der SAM AG, Michael O. (welcher sich zur Zeit in Untersuchungshaft befindet), durch das LG Mosbach zur Zahlung von Schadensersatz im Umfang von 6.532,22 Euro bestätigt und eine Berufung des Beklagten gegen die erstinstanzliche Entscheidung zurückgewiesen.&lt;/p&gt;
+
+&lt;h3 id=&quot;hintergründe-der-klage&quot;&gt;Hintergründe der Klage&lt;/h3&gt;
+
+&lt;p&gt;Die mit der Klage erfolgreichen Anleger hatten mit der SAM AG im Juni 2010 einen sog. Kauf- und Abtretungsvertrag zum Verkauf eines Versicherungsvertrages abgeschlossen. Der Vertrag enthielt eine später eingeführte Rangrücktrittsklausel noch nicht. Ein Nachweis, dass diese nachträglich abgeschlossen wurde, gelang dem Beklagten ebenfalls nicht.&lt;/p&gt;
+
+&lt;p&gt;Bereits das erstinstanzliche tätige Landgericht Mosbach verurteile daher den Beklagten zu Zahlung wegen des Betreibens von Bankgeschäften ohne die hierzu notwendige Erlaubnis der BaFin. Diese Entscheidung bestätigte nun das OLG Karlsruhe indem es die Berufung des Beklagten zurückwies.&lt;/p&gt;
+
+&lt;h3 id=&quot;sam-ag-betrieb-einlagengeschäft&quot;&gt;SAM AG betrieb Einlagengeschäft&lt;/h3&gt;
+
+&lt;p&gt;Das Oberlandesgericht Karlsruhe bestätigte, dass es sich bei dem Geschäftsmodell der SAM AG um ein Einlagengeschäft nach § 1 Abs. 1 Satz 2 Nr. 1 KWG handeln würde. Eine hierzu vertretene Gegenansicht des 26. Zivilsenats des Berliner Kammergerichts saß das OLG Karlsruhe als nicht überzeugend an, da diese die wirtschaftliche Betrachtung des Geschäfts ausblenden würde. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/courts-2962346-1280.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ein Berufen des Beklagten auf einen unvermeidbaren Verbotsirrtum sah das OLG Karlsruhe hier ebenfalls nicht für hinreichend begründet an, da das hier zur Entscheidung vorgelegte Vertragsmodell niemals als genehmigungsfrei von der BaFin angesehen worden war.&lt;/p&gt;
+
+&lt;h3 id=&quot;urteil-rechtskräftig&quot;&gt;Urteil rechtskräftig&lt;/h3&gt;
+
+&lt;p&gt;Da die Revision nicht zugelassen wurde und weil der Streitwert unterhalb von 20.000 Euro festgesetzt wurde, ist die Entscheidung rechtskräftig.&lt;/p&gt;
+
+&lt;p&gt;Ob eine Zwangsvollstreckung gegen den Beklagten und in U-Haft befindlichen Michael O. erfolgreich verläuft, ist allerdings leider mehr als fraglich.&lt;/p&gt;
+
+&lt;h3 id=&quot;strafprozess-hat-in-münchen-begonnen&quot;&gt;Strafprozess hat in München begonnen&lt;/h3&gt;
+
+&lt;p&gt;Zudem wird in den Medien berichtet, dass der Strafprozess in Sachen SAM AG begonnen hat.  Weitereführende Links hierzu finden Sie hier:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.sueddeutsche.de/muenchen/prozess-vier-angeklagte-sollen-tausende-privatanleger-geprellt-haben-1.3951788&quot;&gt;Süddeutsche Zeitung vom 20.04.2018&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.fondsprofessionell.de/news/recht/headline/millionenbetrug-prozess-gegen-sam-finanz-gestartet-143059/&quot;&gt;Fonds professionell vom 24.04.2018&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Wir werden auch hierzu ggf. weiter berichten.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+</description>
+        <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
+        <link>/blog/sam-ag-olg-karlsruhe-best%C3%A4tigt-verurteilung-von-sam-ag-verwaltungsrat/</link>
+        <guid isPermaLink="true">/blog/sam-ag-olg-karlsruhe-best%C3%A4tigt-verurteilung-von-sam-ag-verwaltungsrat/</guid>
+        
+        <category>Anlegerschutz</category>
+        
+        <category>Kapitalmarktecht</category>
+        
+        <category>Ansprüche</category>
+        
+        <category>Betroffener</category>
+        
+        <category>Anleger</category>
+        
+        <category>SAM AG</category>
+        
+        <category>OLG Karlsruhe</category>
+        
+        <category>Berufung</category>
+        
+        <category>zurückgewiesen</category>
+        
+        <category>Oberle</category>
+        
+        <category>Rangrücktritt</category>
+        
+        <category>LG Mosbach</category>
+        
+        <category>AdvoAdvice</category>
+        
+        <category>Erfolg</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Thormann Capital - Nachrangklausel bei Leo One Verträgen unwirksam</title>
+        <description>&lt;p&gt;Das OLG München hat in einem Musterprozess ein wegweisendes Urteil zu Gunsten der Anleger der Thormann Capital GmbH (ehemals Leo One GmbH) gesprochen. Das Gericht entschied in einem gegen den Insolvenzverwalter der Thormann Capital geführten Rechtsstreit mit Urteil vom 25.04.2018 zu Gunsten des durch AdvoAdvice vertretenen Anlegers und hob somit die erstinstanzlich Entscheidung des LG München I, welches die Klage noch abgewiesen hatte, auf.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/advoadvice-01-76-von-80.jpg&quot; alt=&quot;AdvoAdvice Erfolg vor OLG München&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;forderungsanmeldung-nun-möglich&quot;&gt;Forderungsanmeldung nun möglich&lt;/h3&gt;
+
+&lt;p&gt;Der durch AdvoAdvice vertretene Insolvenzgläubiger wird nun seine Forderungsanmeldung zur Insolvenztabelle der Thormann Capital GmbH anerkannt bekommen. Das bedeutet, dass er von dem für ihn schlechten Nachrang, in einen normalen Rang als Insolvenzgläubiger rutscht.&lt;/p&gt;
+
+&lt;h3 id=&quot;greenup-anleger-profitieren-stark-von-der-entscheidung&quot;&gt;GreenUp Anleger profitieren stark von der Entscheidung&lt;/h3&gt;
+
+&lt;p&gt;Faktisch wurde somit also eine Frage von Zahlung aus der Insolvenzmasse oder Totalausfall zu Gunsten der Thormann Anleger mit dem Vertragstyp GreenUp entschieden.&lt;/p&gt;
+
+&lt;p&gt;Für Anleger von anderen Vertragsvarianten, welche es ebenfalls bei der Thormann Capital GmbH (ehemals Leo One) gab, bleibt abzuwarten, wie die Gericht und ggf. der Insolvenzverwalter mit der nunmehr vorliegenden Entscheidung umgehen werden.&lt;/p&gt;
+
+&lt;h3 id=&quot;entscheidung-rechtskräftig&quot;&gt;Entscheidung rechtskräftig&lt;/h3&gt;
+
+&lt;p&gt;Die Entscheidung ist rechtskräfig, da das OLG München die Revision nicht zugelassen und den Streitwert auf 50% der Insolvenzforderung, somit 9.500 Euro festgesetzt hat.&lt;/p&gt;
+
+&lt;h3 id=&quot;insolvenzanmeldung-nachträglich-möglich&quot;&gt;Insolvenzanmeldung nachträglich möglich&lt;/h3&gt;
+
+&lt;p&gt;Anleger der Thormann Capital, die Gelder bei der Gesellschaft zu einem Vertrag vom Typ GreenUp angelegt haben, sollten daher, falls noch nicht geschehen, ihre Forderung zur Insolvenztabelle beim Insolvenzverwalter anmelden. Es kann sein, dass dieser die Anleger auch noch einmal anschreiben und zur Forderungsanmeldung auffordern wird.&lt;/p&gt;
+
+&lt;p&gt;Für die von ihr vertretenen Anleger wird die Kanzlei AdvoAdvice die Forderungen selbstverständlich bei Bedarf nachmelden, so dass hier für Mandanten von AdvoAdvice nichts Weiteres zu unternehmen ist.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+</description>
+        <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+        <link>/blog/thormann-capital-nachrangklausel-bei-leo-one-vertr%C3%A4gen-unwirksam/</link>
+        <guid isPermaLink="true">/blog/thormann-capital-nachrangklausel-bei-leo-one-vertr%C3%A4gen-unwirksam/</guid>
+        
+        <category>Insolvenz</category>
+        
+        <category>Verbraucherinformation</category>
+        
+        <category>Thormann Capital</category>
+        
+        <category>Erfolg</category>
+        
+        <category>OLG München</category>
+        
+        <category>AdvoAdvice</category>
+        
+        <category>Nachrangklausel</category>
+        
+        <category>unwirksam</category>
+        
+        <category>Insolvenztabelle</category>
+        
+        <category>rechtskräftig</category>
+        
+        <category>GreenUp</category>
+        
+        <category>Forderungsanmeldung</category>
+        
+        
+      </item>
+    
   </channel>
 </rss>
